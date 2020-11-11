@@ -1,0 +1,4 @@
+{
+    "base": "USD",
+    "start_date": "#{EXCHANGE_RATE_START_DATE}"
+}
