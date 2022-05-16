@@ -1,7 +1,7 @@
 # docker-singer-exchangerateapi
 Runs the singer tap:
     
-    tap_exchangerateapi  | target-stitch 
+    tap-exchangeratehost  | target-stitch 
 
 This is useful if you want to run this on a CI platform or locally.
 Each run sets the pull date to the current date.
