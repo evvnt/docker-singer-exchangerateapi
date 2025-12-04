@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build -t singer-exchangeratesapi .
+docker build --no-cache -t singer-exchangeratesapi .
