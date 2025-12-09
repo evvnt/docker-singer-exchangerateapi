@@ -1,4 +1,4 @@
-FROM python:3.10-bullseye
+FROM python:3.12-bullseye
 RUN python -m pip install --user --upgrade pip
 RUN pip install git+https://github.com/evvnt/tap-exchangeratehost.git
 RUN pip install target-stitch
